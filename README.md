@@ -33,7 +33,7 @@ Repository → Actions → `Build HC15 Profile Diagnostic APK` → Run workflow�
 
 成功後在 Artifacts 下載：
 
-`HC15ProfileDiagnostic-V0.1.0.apk`
+`HC15ProfileDiagnostic-V0.1.1.apk`
 
 ## Package
 

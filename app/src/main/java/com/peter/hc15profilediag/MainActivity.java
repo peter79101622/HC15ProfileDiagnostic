@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
         TextView author = text("作者：Peter", 13, MUTED, false);
         titleRow.addView(author);
 
-        TextView subtitle = text("Android 14+ / 15 工作設定檔 Health Connect 診斷｜V0.1.0", 14, MUTED, false);
+        TextView subtitle = text("Android 14+ / 15 工作設定檔 Health Connect 診斷｜V0.1.1", 14, MUTED, false);
         subtitle.setPadding(0, dp(4), 0, dp(18));
         root.addView(subtitle);
 
@@ -134,7 +134,7 @@ public class MainActivity extends Activity {
         add("Profile", isProfile ? "是" : "否", isProfile ? RED : BLUE);
         add("Managed Profile", isManagedProfile ? "是" : "否", isManagedProfile ? RED : BLUE);
 
-        report.append("HC15 Profile Diagnostic V0.1.0\n");
+        report.append("HC15 Profile Diagnostic V0.1.1\n");
         report.append("Author: Peter\n");
         report.append("Android: ").append(Build.VERSION.RELEASE).append(" (SDK ").append(Build.VERSION.SDK_INT).append(")\n");
         report.append("Device: ").append(Build.MANUFACTURER).append(" ").append(Build.MODEL).append("\n");
